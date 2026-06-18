@@ -1,0 +1,11 @@
+process.env['NODE_ENV'] = 'test';
+process.env['PORT'] = '3001';
+process.env['REDIS_URL'] ??= 'redis://localhost:6379';
+process.env['JWT_SECRET'] = 'test-secret-that-is-at-least-32-characters-long!!';
+process.env['JWT_EXPIRES_IN'] = '15m';
+process.env['REFRESH_TOKEN_TTL'] = '604800';
+process.env['BCRYPT_ROUNDS'] = '10';
+process.env['RATE_LIMIT_WINDOW'] = '900000';
+process.env['RATE_LIMIT_MAX'] = '1000';
+process.env['LOCKOUT_THRESHOLD'] = '5';
+process.env['LOCKOUT_DURATION'] = '900';
