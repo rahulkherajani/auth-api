@@ -2,6 +2,9 @@
 
 A TypeScript/Express authentication API that uses Redis as its only data store — no SQL, no ORM.
 
+## Video
+
+
 ## Endpoints
 
 ```
